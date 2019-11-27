@@ -10,5 +10,7 @@ Code Samples + Assignments from Sheridans Introduction to C Programming Course
   - Lowercase to Uppercase
   - Uppercase to Lowercase
   - String Concatination
+- UUID Generater
+  - Generates a random uuid
 
-## Please Use these as samples. Do not hand these sample codes as your own.
+## Please use these as samples. Do not hand these sample codes as your own.
