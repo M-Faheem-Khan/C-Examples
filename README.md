@@ -1,5 +1,5 @@
 # C-Examples
-Code Samples + Assignments from Sheridans Introduction to C Programming Course
+Code Samples + Assignments + Random Programs created in Sheridans Introduction to C Programming Course
 
 ### List of Sample Code
 - Linear Search
