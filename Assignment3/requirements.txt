@@ -1,0 +1,9 @@
+Description
+Write a program that read from the user id, names, and marks for a number of students. The program then list all the students and allows user to search the list by giving a search key. This assignment will help you understand C pointers, characters, and strings. NOTE: do NOT use scanf in this assignment.
+
+Requirements
+The program will
+- REQ-1: read the total number of students from the user. Assume user’s input is a valid integer.
+- REQ-2: read id, name, and marks for each student, store into three arrays. Each record is given in a line of text, with id, name, and marks separated by a comma. Student id is an integer, name contains letters and spaces, and mark is a double value. Assume user’s inputs are in correct format.
+- REQ-3: print the list of students and the average mark. Student names are displayed in all-caps.
+- REQ-4: read any search key from the user, search students by name and display all records that contain the key in the name. Also display the average for the found records (display 0.0 if no record is found). Keep on searching until the user inputs a ‘q’ or ‘Q’, then exit the program. If the user wants to search a single letter ‘q’ or ‘Q’, the user will input “\q” or “\Q”.

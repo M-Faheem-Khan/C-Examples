@@ -1,0 +1,12 @@
+Requirements
+Write a program that performs various tasks on a stream of incoming data. The program displays a menu with a list of tasks for the user to choose from. Tasks are numbered 0 to 9. When the user chooses a task by entering the corresponding integer 0 – 9, and provides the needed data for processing, the program will print the result and ask the user to choose a task again. If the user gives an invalid choice, the program will print a message to inform the user.
+Task #0: Exit the program
+Task #1: Keep reading non-negative integers until a -1 is encountered. Print the largest non-negative integer you saw followed by a newline character.
+Task #2: Keep reading non-negative integers until a -1 is encountered. Print the number of odd positive numbers you saw followed by a newline character.
+Task #3: Keep reading non-negative integers until a -1 is encountered. Print the number of prime numbers you saw followed by a newline character.
+Task #4: Read a positive integer. This number will indicate how many floating point numbers you will read from the command line. Read that number of floating point numbers and display their average, rounded to 2 decimal places, followed by a newline character.
+Task #5: Read a positive integer (which will be less than or equal to 30). This number represents the number of integer elements that you will read into an array. Read those integers from the command line into an array.
+Task #6: Print the elements of the array that you read from the user, with each number separated by a space. Print a newline after all the elements have been printed.
+Task #7: Sort the array using bubble sort. Print the elements of the array in ascending order with each number separated by a space. Print a newline after all the elements have been printed.
+Task #8: Read an integer from the command line. Search the current array you’re processing for the integer you just read. Print the position of the number in the array and number of steps it took to find the integer using a linear search. Print a message and -1 if the number was not found.
+Task #9: Print the menu. 

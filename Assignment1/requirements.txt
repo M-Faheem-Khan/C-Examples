@@ -1,0 +1,4 @@
+
+Write a program that plays a random number guessing game. Generate a random number between 10 and 30 and repeatedly ask the user to guess what the number is. Display messages to help the user: if the number they guessed is lower than the correct number, or if the number they guessed is higher than the correct number, say so. Eventually, the user will guess the correct number.
+Once this happens, ask the user if they'd like to play the game again (0-No / 1-Yes). If they choose 1-Yes, do the whole game again. If they choose 0-No, display a "See you next time!" message. Your program should allow the user to give up at any time by giving 1 for their guess. Display the actual number after the user gives up, then ask if the user would like to play again. Your program should allow the
+user to exit the game at any time by giving 0 for their guess. Display a  "See you next time!" message.

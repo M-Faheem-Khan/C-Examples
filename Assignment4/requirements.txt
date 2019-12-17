@@ -1,0 +1,95 @@
+Requirements:
+REQ-0: Show a main menu and read a digit from the keyboard if the users enters a digit not in the menu print an Error message. You menu should look similar to the following menu
+====== MAIN ======
+0 - Exit Program
+1 - List all Books
+2 - Add a New Book
+3 - Delete a Book
+4 - Search a Book by ID
+==================
+REQ-1: Allow the user to exit the program
+==================
+Enter your choice: 0
+== Thank You, Bye-Bye!
+==================
+REQ-2: Display all the books you have including the book ID, Category, Title, Author, and Note.
+==================
+Enter your choice: 1
+------------------------------------------
+ID: 1
+Category: Novels
+Title: Catch-22
+Author: Joseph Heller
+Note: Not read yet
+------------------------------------------
+ID: 2
+Category: Novels
+Title: The Stranger
+Author: Albert Camus
+Note: Great book!
+------------------------------------------
+ID: 3
+Category: Novels
+Title: Great Expectations
+Author: Charles
+Note: Half way to go
+------------------------------------------
+==================
+REQ-3: Add a new book. No duplicates
+==================
+Enter your choice: 2
+== Enter new book ID ( 1 - 100 ): 1
+== Book #1 already exists.
+… …
+Enter your choice: 2
+== Enter new book ID ( 1 - 100 ): 5
+------------------------------------------
+Enter Category Number [1-Arts; 2-Languages; 3-Computers; 4-Novels; 5-Others]: 3
+Enter Book Title: C Programming
+Enter Author Name: Internet
+Enter Note: Online Resources and Links
+------------------------------------------
+==================
+REQ-4: Delete a book given its ID
+==================
+Enter your choice: 3
+== Enter book ID to delete ( 1 - 100 ): 10
+== Book #10 does not exist.
+… …
+Enter your choice: 3
+== Enter book ID to delete ( 1 - 100 ): 1
+------------------------------------------
+ID: 1
+Category: Novels
+Title: Catch-22
+Author: Joseph Heller
+Note: Not read yet
+------------------------------------------
+Are you sure (Y/N): y
+== Book deleted.
+==================
+REQ-5: Search for a book given its ID
+==================
+Enter your choice: 4
+== Enter book ID to search ( 1 - 100 ): 10
+== Book ID #10 has no information.
+… …
+Enter your choice: 4
+== Enter book ID to search ( 1 - 100 ): 4
+------------------------------------------
+ID: 4
+Category: Languages
+Title: ENG4U Notes
+Author: Myself
+Note: Just for memory
+------------------------------------------
+==================
+You must use the following structure definition for your books. Do NOT use any other definitions.
+struct book {
+    int id;
+    int category;
+    char title[45];
+    char author[45];
+    char note[100];
+};
+
