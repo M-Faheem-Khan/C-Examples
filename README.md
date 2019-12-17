@@ -12,5 +12,9 @@ Code Samples + Assignments + Random Programs created in Sheridans Introduction t
   - String Concatination
 - UUID Generater
   - Generates a random uuid
+- Assignment1: Guess the number
+- Assignment2: Input Stream Interaction
+- Assignment3: Student Management
+- Assignment4: Book Management
 
 ## Please use these as samples. Do not hand these sample codes as your own.
